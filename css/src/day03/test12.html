@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Attribute</title>
+    <link rel="stylesheet" type="text/css" href="../css/w3.css">
+    <link rel="stylesheet" type="text/css" href="../css/user.css">
+    <style type="text/css">
+        .box200:nth-child(2) {
+            display: none;
+        }
+        .box200:nth-child(4) {
+            visibility: hidden;
+        }
+        /*
+        .inblock:first-child + .box {
+        }
+        */
+    </style>
+</head>
+<body>
+    <div class="w3-content maxw650 w3-center">
+        <div class="w3-border w3-blue inblock box200 mg10">d1</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d2</div> <!-- <== display: none; -->
+        <div class="w3-border w3-blue inblock box200 mg10">d3</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d4</div> <!-- <== visibility: hidden; -->        
+        <div class="w3-border w3-blue inblock box200 mg10">d5</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d6</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d7</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d8</div>
+        <div class="w3-border w3-blue inblock box200 mg10">d9</div>
+    </div>
+</body>
+</html>
